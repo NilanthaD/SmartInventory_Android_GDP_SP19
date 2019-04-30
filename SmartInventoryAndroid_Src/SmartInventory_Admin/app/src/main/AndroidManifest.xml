@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.adminsmartinventory">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ReplyMessage"></activity>
+        <activity android:name=".Message" />
+        <activity android:name=".MessagesRV" />
+        <activity android:name=".UploadPaymentLable" />
+        <activity android:name=".UploadPayment" />
+        <activity android:name=".PaymentRequestsRV" />
+        <activity android:name=".UploadShippingLabel" />
+        <activity android:name=".RequestAction" />
+        <activity android:name=".SupplyRequestRV" />
+        <activity android:name=".EditItem" />
+        <activity android:name=".ViewItemsRV" />
+        <activity android:name=".AddItems" />
+        <activity android:name=".SecurityQues" />
+        <activity android:name=".AdminView" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
